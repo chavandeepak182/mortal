@@ -1,9 +1,10 @@
-<footer class="footer-section" data-background="{{ asset('theme/img/bg-img/footer-bg.jpg')}}">
-            <div class="overlay"></div>
+<footer class="footer-section footer-2" data-background="{{ asset('theme') }}/img/bg-img/footer-bg.jpg">
+    <div class="bg-color"></div>
+        <div class="overlay"></div>
             <div class="container">
                 <div class="footer-top">
                     <div class="footer-logo">
-                        <a href="index.html"><img src="{{ asset('theme/img/logo/logo.png')}}" alt="logo"></a>
+                        <a href="#"><img src="{{ asset('theme') }}/img/logo/logo.png" alt="logo" /></a>
                     </div>
                     <div class="footer-form-wrap">
                         <h3 class="news">Our Newsletter <span>We are dolor sit amet csectetur</span></h3>
@@ -14,8 +15,9 @@
                                     type="email"
                                     name="email"
                                     placeholder="Enter Your Email"
-                                    required="">
-                                <input type="hidden" name="action" value="mailchimpsubscribe">
+                                    required=""
+                                />
+                                <input type="hidden" name="action" value="mailchimpsubscribe" />
                                 <button class="submit">Subscribe</button>
                                 <div class="clearfix"></div>
                             </form>
@@ -57,11 +59,11 @@
                         <div class="footer-widget widget-2">
                             <h3 class="widget-header">Service</h3>
                             <ul class="footer-list">
-                                <li><a href="about.html">Why Choose Us</a></li>
-                                <li><a href="about.html">Our solutions</a></li>
-                                <li><a href="testimonial.html">Partners</a></li>
-                                <li><a href="service.html">Core values</a></li>
-                                <li><a href="project.html">Our projects</a></li>
+                                <li><a href="#">Why Choose Us</a></li>
+                                <li><a href="#">Our solutions</a></li>
+                                <li><a href="#">Partners</a></li>
+                                <li><a href="#">Core values</a></li>
+                                <li><a href="#">Our projects</a></li>
                             </ul>
                         </div>
                     </div>
@@ -69,11 +71,11 @@
                         <div class="footer-widget widget-3">
                             <h3 class="widget-header">Quick Links</h3>
                             <ul class="footer-list">
-                                <li><a href="about.html">Residents</a></li>
-                                <li><a href="about.html">Business</a></li>
-                                <li><a href="service.html">Online Service</a></li>
-                                <li><a href="project.html">Visiting</a></li>
-                                <li><a href="about.html">Employment</a></li>
+                                <li><a href="#">Residents</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Online Service</a></li>
+                                <li><a href="#">Visiting</a></li>
+                                <li><a href="#">Employment</a></li>
                             </ul>
                         </div>
                     </div>
@@ -81,17 +83,17 @@
                         <div class="footer-widget widget-4">
                             <h3 class="widget-header">Recent Post</h3>
                             <div class="footer-post mb-30">
-                                <a href="#"><img src="{{ asset('theme/img/blog/footer-post-1.png')}}" alt="post"> </a>
+                                <a href="#"><img src="{{ asset('theme') }}/img/blog/footer-post-1.png" alt="post" /> </a>
                                 <div class="post-content">
                                     <span>23 jun 2024</span>
-                                    <h4 class="title"><a href="blog-details.html">We round Solution york Blog</a></h4>
+                                    <h4 class="title"><a href="#">We round Solution york Blog</a></h4>
                                 </div>
                             </div>
                             <div class="footer-post">
-                                <a href="#"><img src="{{ asset('theme/img/blog/footer-post-2.png')}}" alt="post"> </a>
+                                <a href="#"><img src="{{ asset('theme') }}/img/blog/footer-post-2.png" alt="post" /> </a>
                                 <div class="post-content">
                                     <span>23 jun 2024</span>
-                                    <h4 class="title"><a href="blog-details.html">We round Solution york Blog</a></h4>
+                                    <h4 class="title"><a href="#">We round Solution york Blog</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -103,25 +105,31 @@
                     <div class="copyright-content">
                         <p>Copyright © 2024 <span>Morat</span>, All Rights Reserved.</p>
                         <ul class="copy-list">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="project.html">Events</a></li>
-                            <li><a href="blog-grid.html">News</a></li>
-                            <li><a href="project.html">Portfolio</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Portfolio</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </footer>
-        
-         <!-- JS here -->
-         <script src="{{ asset('theme') }}/js/vendor/jquary-3.6.0.min.js"></script>
+        <!-- ./ footer-section -->
+
+        <div id="scrollup">
+            <button id="scroll-top" class="scroll-to-top"><i class="fa-regular fa-arrow-up-long"></i></button>
+        </div>
+        <!--scrollup-->
+
+        <!-- JS here -->
+        <script src="{{ asset('theme') }}/js/vendor/jquary-3.6.0.min.js"></script>
         <script src="{{ asset('theme') }}/js/vendor/bootstrap-bundle.js"></script>
         <script src="{{ asset('theme') }}/js/vendor/imagesloaded-pkgd.js"></script>
         <script src="{{ asset('theme') }}/js/vendor/waypoints.min.js"></script>
         <script src="{{ asset('theme') }}/js/vendor/venobox.min.js"></script>
-        <script src="{{ asset('theme') }}/js/vendor/smooth-scroll.js"></script>
         <script src="{{ asset('theme') }}/js/vendor/odometer.min.js"></script>
         <script src="{{ asset('theme') }}/js/vendor/meanmenu.js"></script>
+        <script src="{{ asset('theme') }}/js/vendor/smooth-scroll.js"></script>
         <script src="{{ asset('theme') }}/js/vendor/jquery.isotope.js"></script>
         <script src="{{ asset('theme') }}/js/vendor/wow.min.js"></script>
         <script src="{{ asset('theme') }}/js/vendor/swiper.min.js"></script>
