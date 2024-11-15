@@ -1,6 +1,6 @@
 @extends('frontend.layouts.header')
-@section('title', "Authorized distributors & Suppliers of Burner Controls")
-@section('keywords', "Authorized distributors & Suppliers of Burner Controls, Flame Monitoring System, Gas Train Components, Gas Train Burners.")
+@section('title', "Web & App Development")
+@section('keywords', "Website Development, App Development")
 
 @section('content')
         <div id="popup-search-box">

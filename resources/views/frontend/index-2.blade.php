@@ -1,127 +1,8 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-    
-<!-- Mirrored from html.rrdevs.net/morat/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2024 20:12:30 GMT -->
-<head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
+@extends('frontend.layouts.header')
+@section('title', "Web & App Development")
+@section('keywords', "Website Development, App Development")
 
-        <!-- Site Title -->
-        <title>Morat - Software & Solution HTML5 Template</title>
-
-        <!-- Place favicon.ico in the root directory -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-
-        <!-- CSS here -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-        <link rel="stylesheet" href="assets/css/icofont.min.css">
-        <link rel="stylesheet" href="assets/css/venobox.min.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/keyframe-animation.css">
-        <link rel="stylesheet" href="assets/css/odometer.min.css">
-        <link rel="stylesheet" href="assets/css/swiper.min.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-
-    <body class="header-2">
-        <!-- header-area-start -->
-        <header class="header sticky-active">
-            <div class="header-container">
-                <div class="top-bar">
-                    <ul class="top-bar-list">
-                        <li><i class="fa-light fa-clock"></i>Mon - Sat 8.00 - 18.00. Sun Closed</li>
-                        <li><i class="fa-light fa-location-dot"></i>1010 Avenue, NY 10018 US.</li>
-                    </ul>
-                    <ul class="top-btn-list">
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Register</a></li>
-                        <li><a href="#">Support</a></li>
-                    </ul>
-                </div>
-                <div class="primary-header">
-                    <div class="primary-header-inner">
-                        <div class="header-logo d-lg-block">
-                            <a href="index.html">
-                                <img src="assets/img/logo/logo-2.png" alt="Logo">
-                            </a>
-                        </div>
-                        <div class="header-menu-wrap">
-                            <div class="mobile-menu-items">
-                                <ul class="sub-menu">
-                                    <li class="menu-item-has-children active">
-                                        <a href="index.html">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">It Solution</a></li>
-                                            <li><a href="index-2.html">Software Landing</a></li>
-                                            <li><a href="index-3.html">Digital Marketing</a></li>
-                                            <li><a href="index-4.html">Digital Agency</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">About</a>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="service.html">Service</a>
-                                        <ul>
-                                            <li><a href="service.html">Service</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="project.html">Project</a></li>
-                                            <li><a href="project-details.html">Project Details</a></li>
-                                            <li><a href="testimonial.html">Testimonial</a></li>
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li><a href="error.html">404 Error</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="blog-grid.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>
-                            <div class="header-right">
-                                <a href="contact.html" class="mt-primary-btn primary-2 header-btn">Get A Quote</a>
-                                <div class="sidebar-icon">
-                                    <button class="sidebar-trigger open">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </button>
-                                </div>
-                                <div class="header-logo d-none d-lg-none">
-                                    <a href="index.html">
-                                        <img src="assets/img/logo/logo.png" alt="Logo">
-                                    </a>
-                                </div>
-                                <div class="header-right-item">
-                                    <a href="javascript:void(0)" class="mobile-side-menu-toggle d-lg-none"
-                                        ><i class="fa-sharp fa-solid fa-bars"></i
-                                    ></a>
-                                </div>
-                            </div>
-                            <!-- /.header-right -->
-                        </div>
-                        <!-- /.header-menu-wrap -->
-                    </div>
-                    <!-- /.primary-header-inner -->
-                </div>
-                <!-- /.primary-header -->
-            </div>
-        </header>
-        <!-- /.Main Header -->
+@section('content')       
 
         <div id="popup-search-box">
             <div class="box-inner-wrap d-flex align-items-center">
@@ -167,7 +48,7 @@
             </button>
             <div class="side-menu-content">
                 <div class="side-menu-logo">
-                    <img src="assets/img/logo/logo.png" alt="logo">
+                    <img src="{{ asset('theme/img/logo/logo.png')}}" alt="logo">
                 </div>
                 <div class="side-menu-about">
                     <div class="side-menu-header">
@@ -208,7 +89,7 @@
         <div class="mobile-side-menu">
             <div class="side-menu-content">
                 <div class="side-menu-head">
-                    <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
+                    <a href="index.html"><img src="{{ asset('theme/img/logo/logo.png')}}" alt="logo"></a>
                     <button class="mobile-side-menu-close"><i class="fa-regular fa-xmark"></i></button>
                 </div>
                 <div class="side-menu-wrap"></div>
@@ -231,11 +112,11 @@
             </div>
         </div>
 
-        <section class="hero-section-2" data-background="assets/img/bg-img/hero-bg-2.jpg">
+        <section class="hero-section-2" data-background="{{ asset('theme/img/bg-img/hero-bg-2.jpg')}}">
             <div class="overlay d-lg-none"></div>
             <div class="custom-container">
                 <div class="hero-content content-2">
-                    <div class="shape" data-background="assets/img/shapes/hero-shape-1.png"></div>
+                    <div class="shape" data-background="{{ asset('theme/img/shapes/hero-shape-1.png')}}"></div>
                     <h4 class="hero-sub-title wow fade-in-bottom" data-wow-delay="400ms"><span>Welcome to</span> Morat!</h4>
                     <h1 class="title wow fade-in-bottom" data-wow-delay="500ms">The Best Projects Code It Solution <span>Working.</span></h1>
                     <p class="wow fade-in-bottom" data-wow-delay="600ms">
@@ -269,8 +150,8 @@
         <!-- ./ hero-section -->
 
         <section class="feature-section feature-1 pt-100 pb-100">
-            <div class="top-shape" data-background="assets/img/shapes/top-left-shape.png"></div>
-            <div class="bottom-shape" data-background="assets/img/shapes/top-left-shape.png"></div>
+            <div class="top-shape" data-background="{{ asset('theme/img/shapes/top-left-shape.png')}}"></div>
+            <div class="bottom-shape" data-background="{{ asset('theme/img/shapes/top-left-shape.png')}}"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -285,7 +166,7 @@
                                 <a href="about.html" class="mt-primary-btn primary-2 wow fade-in-bottom" data-wow-delay="600ms">Read More</a>
                             </div>
                             <div class="feature-img wow fade-in-bottom" data-wow-delay="700ms">
-                                <img src="assets/img/images/feature-img.jpg" alt="feature">
+                                <img src="{{ asset('theme/img/images/feature-img.jpg')}}" alt="feature">
                             </div>
                         </div>
                     </div>
@@ -324,7 +205,7 @@
                                                 transform="translate(79.90234375,8.5)">
                                             </path>
                                         </svg>
-                                        <img src="assets/img/icon/service-2.png" alt="feature">
+                                        <img src="{{ asset('theme/img/icon/service-2.png')}}" alt="feature">
                                     </div>
                                     <h3 class="title"><a href="service-details.html">Digital Marketing</a></h3>
                                     <p>
@@ -345,7 +226,7 @@
                                                 transform="translate(79.90234375,8.5)">
                                             </path>
                                         </svg>
-                                        <img src="assets/img/icon/service-3.png" alt="feature">
+                                        <img src="{{ asset('theme/img/icon/service-3.png')}}" alt="feature">
                                     </div>
                                     <h3 class="title"><a href="service-details.html">Research Work</a></h3>
                                     <p>
@@ -366,7 +247,7 @@
                                                 transform="translate(79.90234375,8.5)">
                                             </path>
                                         </svg>
-                                        <img src="assets/img/icon/service-1.png" alt="feature">
+                                        <img src="{{ asset('theme/img/icon/service-1.png')}}" alt="feature">
                                     </div>
                                     <h3 class="title"><a href="service-details.html">Get Updates </a></h3>
                                     <p>
@@ -383,7 +264,7 @@
         <!-- ./ feature-section -->
 
         <section class="about-section-3 pt-100 pb-100">
-            <div class="bg-shape" data-background="assets/img/bg-img/about-bg-shape.png"></div>
+            <div class="bg-shape" data-background="{{ asset('theme/img/bg-img/about-bg-shape.png')}}"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -440,7 +321,7 @@
                                 <span class="project">Complete Projects</span>
                             </div>
                             <div class="author-img">
-                                <img src="assets/img/images/about-author-2.jpg" alt="author">
+                                <img src="{{ asset('theme/img/images/about-author-2.jpg')}}" alt="author">
                             </div>
                         </div>
                         <div class="about-img-2 wow fade-in-right" data-wow-delay="500ms">
@@ -450,13 +331,13 @@
                                     <span class="challange">Expressions Challenge</span>
                                 </div>
                                 <div class="shape shape-1">
-                                    <img src="assets/img/shapes/about-img-shape-1.jpg" alt="shape">
+                                    <img src="{{ asset('theme/img/shapes/about-img-shape-1.jpg')}}" alt="shape">
                                 </div>
                                 <div class="shape shape-2">
-                                    <img src="assets/img/shapes/about-img-shape-2.png" alt="shape">
+                                    <img src="{{ asset('theme/img/shapes/about-img-shape-2.png')}}" alt="shape">
                                 </div>
                             </div>
-                            <img class="main" src="assets/img/images/about-img-4.png" alt="about">
+                            <img class="main" src="{{ asset('theme/img/images/about-img-4.png')}}" alt="about">
                         </div>
                     </div>
                 </div>
@@ -473,7 +354,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="faq-img wow fade-in-left" data-wow-delay="400ms">
-                            <img src="assets/img/images/faq-img.png" alt="faq">
+                            <img src="{{ asset('theme/img/images/faq-img.png')}}" alt="faq">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -506,7 +387,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="assets/img/images/faq-body-img.jpg" alt="faq">
+                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -538,7 +419,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="assets/img/images/faq-body-img.jpg" alt="faq">
+                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -568,7 +449,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="assets/img/images/faq-body-img.jpg" alt="faq">
+                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -599,7 +480,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="assets/img/images/faq-body-img.jpg" alt="faq">
+                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -629,7 +510,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="assets/img/images/faq-body-img.jpg" alt="faq">
+                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -648,27 +529,27 @@
                     <div class="swiper-wrapper swiper-container">
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="assets/img/sponsor/sponsor-1.png" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-1.png')}}" alt="sponsor"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="assets/img/sponsor/sponsor-2.png" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-2.png')}}" alt="sponsor"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="assets/img/sponsor/sponsor-3.png" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-3.png')}}" alt="sponsor"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="assets/img/sponsor/sponsor-4.png" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-4.png')}}" alt="sponsor"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="assets/img/sponsor/sponsor-5.png" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-5.png')}}" alt="sponsor"></a>
                             </div>
                         </div>
                     </div>
@@ -689,10 +570,10 @@
                             <div class="swiper-slide">
                                 <div class="team-item">
                                     <a href="#" class="team-logo">
-                                        <img src="assets/img/shapes/team-shape.png" alt="shape">
+                                        <img src="{{ asset('theme/img/shapes/team-shape.png')}}" alt="shape">
                                     </a>
                                     <div class="team-thumb">
-                                        <img src="assets/img/team/team-1.png" alt="team">
+                                        <img src="{{ asset('theme/img/team/team-1.png')}}" alt="team">
                                         <div class="team-social">
                                             <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
                                             <ul class="social-list">
@@ -720,10 +601,10 @@
                             <div class="swiper-slide">
                                 <div class="team-item">
                                     <a href="#" class="team-logo">
-                                        <img src="assets/img/shapes/team-shape.png" alt="shape">
+                                        <img src="{{ asset('theme/img/shapes/team-shape.png')}}" alt="shape">
                                     </a>
                                     <div class="team-thumb">
-                                        <img src="assets/img/team/team-2.png" alt="team">
+                                        <img src="{{ asset('theme/img/team/team-2.png')}}" alt="team">
                                         <div class="team-social">
                                             <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
                                             <ul class="social-list">
@@ -751,10 +632,10 @@
                             <div class="swiper-slide">
                                 <div class="team-item">
                                     <a href="#" class="team-logo">
-                                        <img src="assets/img/shapes/team-shape.png" alt="shape">
+                                        <img src="{{ asset('theme/img/shapes/team-shape.png')}}" alt="shape">
                                     </a>
                                     <div class="team-thumb">
-                                        <img src="assets/img/team/team-3.png" alt="team">
+                                        <img src="{{ asset('theme/img/team/team-3.png')}}" alt="team">
                                         <div class="team-social">
                                             <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
                                             <ul class="social-list">
@@ -787,12 +668,12 @@
         </section>
         <!-- ./ team-section -->
 
-        <section class="cta-section-2" data-background="assets/img/bg-img/cta-bg-2.jpg">
+        <section class="cta-section-2" data-background="{{ asset('theme/img/bg-img/cta-bg-2.jpg')}}">
             <div class="container">
-                <div class="cta-content-wrap wow fade-in-bottom" data-wow-delay="400ms" data-background="assets/img/bg-img/cta-info-bg.png">
+                <div class="cta-content-wrap wow fade-in-bottom" data-wow-delay="400ms" data-background="{{ asset('theme/img/bg-img/cta-info-bg.png')}}">
                     <div class="cta-info">
                         <div class="cta-icon">
-                            <img src="assets/img/icon/cta-icon.png" alt="icon">
+                            <img src="{{ asset('theme/img/icon/cta-icon.png')}}" alt="icon">
                         </div>
                         <h3 class="title">
                             Let's Try! Get This Free Support Solution?<span
@@ -821,7 +702,7 @@
                             <div class="project-item">
                                 <div class="project-thumb">
                                     <div class="overlay"></div>
-                                    <img src="assets/img/images/project-img-6.png" alt="project">
+                                    <img src="{{ asset('theme/img/images/project-img-6.png')}}" alt="project">
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title">
@@ -837,7 +718,7 @@
                             <div class="project-item">
                                 <div class="project-thumb">
                                     <div class="overlay"></div>
-                                    <img src="assets/img/images/project-img-7.png" alt="project">
+                                    <img src="{{ asset('theme/img/images/project-img-7.png')}}" alt="project">
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title">
@@ -853,7 +734,7 @@
                             <div class="project-item">
                                 <div class="project-thumb">
                                     <div class="overlay"></div>
-                                    <img src="assets/img/images/project-img-8.png" alt="project">
+                                    <img src="{{ asset('theme/img/images/project-img-8.png')}}" alt="project">
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title">
@@ -869,7 +750,7 @@
                             <div class="project-item">
                                 <div class="project-thumb">
                                     <div class="overlay"></div>
-                                    <img src="assets/img/images/project-img-3.png" alt="project">
+                                    <img src="{{ asset('theme/img/images/project-img-3.png')}}" alt="project">
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title">
@@ -888,7 +769,7 @@
         </section>
         <!-- ./ project-section -->
 
-        <section class="solution-section" data-background="assets/img/bg-img/solution-bg.png">
+        <section class="solution-section" data-background="{{ asset('theme/img/bg-img/solution-bg.png')}}">
             <div class="container">
                 <div class="section-heading text-center">
                     <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="400ms">Our Software Solution</h4>
@@ -907,7 +788,7 @@
                                 aria-controls="pills-home"
                                 aria-selected="true"
                             >
-                                <img src="assets/img/icon/solution-tab-1.png" alt="solution">Team Support
+                                <img src="{{ asset('theme/img/icon/solution-tab-1.png')}}" alt="solution">Team Support
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -921,7 +802,7 @@
                                 aria-controls="pills-profile"
                                 aria-selected="false"
                             >
-                            <img src="assets/img/icon/solution-tab-2.png" alt="solution">Our Conferance
+                            <img src="{{ asset('theme/img/icon/solution-tab-2.png')}}" alt="solution">Our Conferance
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -935,7 +816,7 @@
                                 aria-controls="pills-contact"
                                 aria-selected="false"
                             >
-                            <img src="assets/img/icon/solution-tab-3.png" alt="solution">Settings Fast
+                            <img src="{{ asset('theme/img/icon/solution-tab-3.png')}}" alt="solution">Settings Fast
                             </button>
                         </li>
                     </ul>
@@ -960,7 +841,7 @@
                                             </p>
                                         </div>
                                         <div class="solution-box">
-                                            <img src="assets/img/images/solution-img.jpg" alt="img">
+                                            <img src="{{ asset('theme/img/images/solution-img.jpg')}}" alt="img">
                                             <ul class="solution-list">
                                                 <li>
                                                     <i class="fa-regular fa-plus"></i>Softewer being able to out videos
@@ -977,7 +858,7 @@
                                             </ul>
                                         </div>
                                         <div class="solution-icon">
-                                            <div class="icon"><img src="assets/img/icon/bulb.png" alt="bulb"></div>
+                                            <div class="icon"><img src="{{ asset('theme/img/icon/bulb.png')}}" alt="bulb"></div>
                                             <h3 class="title">
                                                 Agency Website Service <span>App Design, Website</span>
                                             </h3>
@@ -999,7 +880,7 @@
                                             </p>
                                         </div>
                                         <div class="solution-box">
-                                            <img src="assets/img/images/solution-img.jpg" alt="img">
+                                            <img src="{{ asset('theme/img/images/solution-img.jpg')}}" alt="img">
                                             <ul class="solution-list">
                                                 <li>
                                                     <i class="fa-regular fa-plus"></i>Softewer being able to out videos
@@ -1016,7 +897,7 @@
                                             </ul>
                                         </div>
                                         <div class="solution-icon">
-                                            <div class="icon"><img src="assets/img/icon/bulb.png" alt="bulb"></div>
+                                            <div class="icon"><img src="{{ asset('theme/img/icon/bulb.png')}}" alt="bulb"></div>
                                             <h3 class="title">
                                                 Agency Website Service <span>App Design, Website</span>
                                             </h3>
@@ -1038,7 +919,7 @@
                                             </p>
                                         </div>
                                         <div class="solution-box">
-                                            <img src="assets/img/images/solution-img.jpg" alt="img">
+                                            <img src="{{ asset('theme/img/images/solution-img.jpg')}}" alt="img">
                                             <ul class="solution-list">
                                                 <li>
                                                     <i class="fa-regular fa-plus"></i>Softewer being able to out videos
@@ -1055,7 +936,7 @@
                                             </ul>
                                         </div>
                                         <div class="solution-icon">
-                                            <div class="icon"><img src="assets/img/icon/bulb.png" alt="bulb"></div>
+                                            <div class="icon"><img src="{{ asset('theme/img/icon/bulb.png')}}" alt="bulb"></div>
                                             <h3 class="title">
                                                 Agency Website Service <span>App Design, Website</span>
                                             </h3>
@@ -1069,9 +950,9 @@
                                     <div class="col-md-6">
                                         <div class="counter-item">
                                             <div class="shape">
-                                                <img src="assets/img/shapes/counter-shape.png" alt="shape">
+                                                <img src="{{ asset('theme/img/shapes/counter-shape.png')}}" alt="shape">
                                             </div>
-                                            <div class="counter-icon"><img src="assets/img/icon/counter-1.png" alt="icon"></div>
+                                            <div class="counter-icon"><img src="{{ asset('theme/img/icon/counter-1.png')}}" alt="icon"></div>
                                             <h3 class="title"><span class="odometer" data-count="56">0</span>k+</h3>
                                             <p>Happy Clients</p>
                                         </div>
@@ -1079,9 +960,9 @@
                                     <div class="col-md-6">
                                         <div class="counter-item" style="--mt-color-theme-secondary: #a6e155">
                                             <div class="shape">
-                                                <img src="assets/img/shapes/counter-shape.png" alt="shape">
+                                                <img src="{{ asset('theme/img/shapes/counter-shape.png')}}" alt="shape">
                                             </div>
-                                            <div class="counter-icon"><img src="assets/img/icon/counter-2.png" alt="icon"></div>
+                                            <div class="counter-icon"><img src="{{ asset('theme/img/icon/counter-2.png')}}" alt="icon"></div>
                                             <h3 class="title"><span class="odometer" data-count="186">0</span>+</h3>
                                             <p>Business Award</p>
                                         </div>
@@ -1092,7 +973,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="solution-img">
-                            <img src="assets/img/images/solution-img-2.jpg" alt="img">
+                            <img src="{{ asset('theme/img/images/solution-img-2.jpg')}}" alt="img">
                         </div>
                     </div>
                 </div>
@@ -1169,16 +1050,16 @@
 
         <section class="contact-section bg-dark-1 pt-100 pb-100">
             <div class="contact-shapes">
-                <div class="shape headphone"><img src="assets/img/icon/headphone.png" alt="img"></div>
-                <div class="shape bulb"><img src="assets/img/icon/bulb-2.png" alt="img"></div>
-                <div class="shape bg top-shape" data-background="assets/img/shapes/contact-shape-2.png"></div>
-                <div class="shape bg bottom-shape" data-background="assets/img/shapes/contact-shape-1.png"></div>
+                <div class="shape headphone"><img src="{{ asset('theme/img/icon/headphone.png')}}" alt="img"></div>
+                <div class="shape bulb"><img src="{{ asset('theme/img/icon/bulb-2.png" alt="img')}}"></div>
+                <div class="shape bg top-shape" data-background="{{ asset('theme/img/shapes/contact-shape-2.png')}}"></div>
+                <div class="shape bg bottom-shape" data-background="{{ asset('theme/img/shapes/contact-shape-1.png')}}"></div>
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="contact-thumb wow fade-in-left" data-wow-delay="500ms">
-                            <img src="assets/img/images/contact-img.png" alt="img">
+                            <img src="{{ asset('theme/img/images/contact-img.png')}}" alt="img">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -1246,7 +1127,7 @@
                             <div class="post-card card-2">
                                 <div class="post-content-wrap">
                                     <div class="post-content">
-                                        <div class="post-author"><img src="assets/img/blog/blog-author-1.png" alt="author"></div>
+                                        <div class="post-author"><img src="{{ asset('theme/img/blog/blog-author-1.png')}}" alt="author"></div>
                                         <a href="#" class="category">Solution</a>
                                         <ul class="post-meta">
                                             <li>By: <a href="#">Admin, </a>May 02, 2024</li>
@@ -1273,7 +1154,7 @@
                             <div class="post-card card-2 item-2">
                                 <div class="post-content-wrap">
                                     <div class="post-content">
-                                        <div class="post-author"><img src="assets/img/blog/blog-author-2.png" alt="author"></div>
+                                        <div class="post-author"><img src="{{ asset('theme/img/blog/blog-author-2.png')}}" alt="author"></div>
                                         <a href="#" class="category">Solution</a>
                                         <ul class="post-meta">
                                             <li>By: <a href="#">Admin, </a>May 02, 2024</li>
@@ -1300,7 +1181,7 @@
                             <div class="post-card card-2 item-3">
                                 <div class="post-content-wrap">
                                     <div class="post-content">
-                                        <div class="post-author"><img src="assets/img/blog/blog-author-3.png" alt="author"></div>
+                                        <div class="post-author"><img src="{{ asset('theme/img/blog/blog-author-3.png')}}" alt="author"></div>
                                         <a href="#" class="category">Solution</a>
                                         <ul class="post-meta">
                                             <li>By: <a href="#">Admin, </a>May 02, 2024</li>
@@ -1331,121 +1212,7 @@
         </section>
         <!-- ./ blog-section -->
 
-        <footer class="footer-section" data-background="assets/img/bg-img/footer-bg.jpg">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="footer-top">
-                    <div class="footer-logo">
-                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
-                    </div>
-                    <div class="footer-form-wrap">
-                        <h3 class="news">Our Newsletter <span>We are dolor sit amet csectetur</span></h3>
-                        <div class="footer-form">
-                            <form action="#" class="mt-subscribe-form">
-                                <input
-                                    class="form-control"
-                                    type="email"
-                                    name="email"
-                                    placeholder="Enter Your Email"
-                                    required="">
-                                <input type="hidden" name="action" value="mailchimpsubscribe">
-                                <button class="submit">Subscribe</button>
-                                <div class="clearfix"></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h3 class="widget-header">About</h3>
-                            <ul class="address-list">
-                                <li>
-                                    <i class="fa-regular fa-clock"></i>Open Hours of Government: Mon - Fri: 8.00 am. -
-                                    6.00 pm.
-                                </li>
-                                <li><i class="fa-solid fa-location-dot"></i> 13/A, Miranda Halim City .</li>
-                                <li>
-                                    <i class="fa-sharp fa-solid fa-phone"></i
-                                    ><a href="tel:09969569535">099 695 695 35</a>
-                                </li>
-                            </ul>
-                            <ul class="social-list">
-                                <li class="facebook">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li class="pinterest" style="--mt-color-theme-secondary: #3d72fc">
-                                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                                </li>
-                                <li class="twitter" style="--mt-color-theme-secondary: #ff8c91">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li class="instagram" style="--mt-color-theme-secondary: #d1efa7">
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget widget-2">
-                            <h3 class="widget-header">Service</h3>
-                            <ul class="footer-list">
-                                <li><a href="about.html">Why Choose Us</a></li>
-                                <li><a href="about.html">Our solutions</a></li>
-                                <li><a href="testimonial.html">Partners</a></li>
-                                <li><a href="service.html">Core values</a></li>
-                                <li><a href="project.html">Our projects</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget widget-3">
-                            <h3 class="widget-header">Quick Links</h3>
-                            <ul class="footer-list">
-                                <li><a href="about.html">Residents</a></li>
-                                <li><a href="about.html">Business</a></li>
-                                <li><a href="service.html">Online Service</a></li>
-                                <li><a href="project.html">Visiting</a></li>
-                                <li><a href="about.html">Employment</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget widget-4">
-                            <h3 class="widget-header">Recent Post</h3>
-                            <div class="footer-post mb-30">
-                                <a href="#"><img src="assets/img/blog/footer-post-1.png" alt="post"> </a>
-                                <div class="post-content">
-                                    <span>23 jun 2024</span>
-                                    <h4 class="title"><a href="blog-details.html">We round Solution york Blog</a></h4>
-                                </div>
-                            </div>
-                            <div class="footer-post">
-                                <a href="#"><img src="assets/img/blog/footer-post-2.png" alt="post"> </a>
-                                <div class="post-content">
-                                    <span>23 jun 2024</span>
-                                    <h4 class="title"><a href="blog-details.html">We round Solution york Blog</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright-area">
-                <div class="container">
-                    <div class="copyright-content">
-                        <p>Copyright © 2024 <span>Morat</span>, All Rights Reserved.</p>
-                        <ul class="copy-list">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="project.html">Events</a></li>
-                            <li><a href="blog-grid.html">News</a></li>
-                            <li><a href="project.html">Portfolio</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- ./ footer-section -->
+        
 
         <div id="scrollup">
             <button id="scroll-top" class="scroll-to-top"><i class="fa-regular fa-arrow-up-long"></i></button>
@@ -1453,20 +1220,17 @@
         <!--scrollup-->
 
         <!-- JS here -->
-        <script src="assets/js/vendor/jquary-3.6.0.min.js"></script>
-        <script src="assets/js/vendor/bootstrap-bundle.js"></script>
-        <script src="assets/js/vendor/imagesloaded-pkgd.js"></script>
-        <script src="assets/js/vendor/waypoints.min.js"></script>
-        <script src="assets/js/vendor/venobox.min.js"></script>
-        <script src="assets/js/vendor/smooth-scroll.js"></script>
-        <script src="assets/js/vendor/odometer.min.js"></script>
-        <script src="assets/js/vendor/meanmenu.js"></script>
-        <script src="assets/js/vendor/jquery.isotope.js"></script>
-        <script src="assets/js/vendor/wow.min.js"></script>
-        <script src="assets/js/vendor/swiper.min.js"></script>
-        <script src="assets/js/ajax-form.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
-
-<!-- Mirrored from html.rrdevs.net/morat/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2024 20:13:17 GMT -->
-</html>
+        <script src="{{ asset('theme/js/vendor/jquary-3.6.0.min.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/bootstrap-bundle.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/imagesloaded-pkgd.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/waypoints.min.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/venobox.min.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/smooth-scroll.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/odometer.min.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/meanmenu.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/jquery.isotope.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/wow.min.js')}}"></script>
+        <script src="{{ asset('theme/js/vendor/swiper.min.js')}}"></script>
+        <script src="{{ asset('theme/js/ajax-form.js')}}"></script>
+        <script src="{{ asset('theme/js/main.js')}}"></script>
+ @endsection
