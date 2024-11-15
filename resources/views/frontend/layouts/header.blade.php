@@ -47,13 +47,19 @@
                     <div class="primary-header-inner">
                         <div class="header-logo d-lg-block">
                             <a href="index.html">
-                                <img src="{{ asset('theme') }}/img/logo/logo-2.png" alt="Logo">
+                                <!-- <img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="Logo" style="height: 50px;"> -->
+                                <div style="display: flex; align-items: center;">
+                                    <img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="Logo" style="height: 50px;">
+                                    <span style="margin-left: 10px; font-size: 24px; font-weight: bold;">
+                                        <span style="color: #175cff;">Vajra</span><span style="color: #ffc226;">Techne</span>
+                                    </span>
+                                </div>
                             </a>
                         </div>
                         <div class="header-menu-wrap">
                             <div class="mobile-menu-items">
                                 <ul class="sub-menu">
-                                    <li class="menu-item-has-children active">
+                                    <!-- <li class="menu-item-has-children active">
                                         <a href="index.html">Home</a>
                                         <ul>
                                             <li><a href="index.html">It Solution</a></li>
@@ -61,6 +67,9 @@
                                             <li><a href="index-3.html">Digital Marketing</a></li>
                                             <li><a href="index-4.html">Digital Agency</a></li>
                                         </ul>
+                                    </li> -->
+                                    <li>
+                                        <a href="{{url('/')}}">Home</a>
                                     </li>
                                     <li>
                                         <a href="about.html">About</a>
@@ -105,7 +114,7 @@
                                 </div>
                                 <div class="header-logo d-none d-lg-none">
                                     <a href="index.html">
-                                        <img src="{{ asset('theme') }}/img/logo/logo.png" alt="Logo">
+                                        <img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="Logo">
                                     </a>
                                 </div>
                                 <div class="header-right-item">
@@ -169,13 +178,17 @@
             </button>
             <div class="side-menu-content">
                 <div class="side-menu-logo">
-                    <img src="{{ asset('theme') }}/img/logo/logo.png" alt="logo">
+                    <img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="logo" style="height:50px">
+                    <span style="margin-left: 10px; font-size: 24px; font-weight: bold;">
+                        <span style="color: #175cff;">Vajra</span><span style="color: #ffc226;">Techne</span>
+                    </span>
                 </div>
+                
                 <div class="side-menu-about">
                     <div class="side-menu-header">
                         <h3>About Us</h3>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Welcome to VajraTechne Solutions – your one-stop destination for innovative digital solutions. We specialize in transforming ideas into impactful experiences, helping businesses of all sizes thrive in the digital age.</p>
                     <a href="contact.html" class="mt-primary-btn">Contact Us</a>
                 </div>
                 <div class="side-menu-contact">
@@ -185,15 +198,15 @@
                     <ul class="side-menu-list">
                         <li>
                             <i class="fas fa-map-marker-alt"></i>
-                            <p>Valentin, Street Road 24, New York, </p>
+                            <p>Moze Nagar, Lohegaon, Pune, Maharashtra 411047</p>
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>
-                            <a href="tel:+000123456789">+000 123 (456) 789</a>
+                            <a href="tel:+000123456789">+91 8788524747</a>
                         </li>
                         <li>
                             <i class="fas fa-envelope-open-text"></i>
-                            <a href="mailto:moratcontact@gmail.com">moratcontact@gmail.com</a>
+                            <a href="mailto:moratcontact@gmail.com">contact@vajratechne.com</a>
                         </li>
                     </ul>
                 </div>
@@ -210,7 +223,7 @@
         <div class="mobile-side-menu">
             <div class="side-menu-content">
                 <div class="side-menu-head">
-                    <a href="index.html"><img src="{{ asset('theme') }}/img/logo/logo.png" alt="logo"></a>
+                    <a href="index.html"><img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="logo"></a>
                     <button class="mobile-side-menu-close"><i class="fa-regular fa-xmark"></i></button>
                 </div>
                 <div class="side-menu-wrap"></div>
