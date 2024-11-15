@@ -3,7 +3,10 @@
             <div class="container">
                 <div class="footer-top">
                     <div class="footer-logo">
-                        <a href="index.html"><img src="{{ asset('theme') }}/img/logo/logo.png" alt="logo"></a>
+                        <a href="index.html"><img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="logo" style="height: 50px;"></a>
+                        <span style="margin-left: 10px; font-size: 24px; font-weight: bold;">
+                            <span style="color: #175cff;">Vajra</span><span style="color: #ffc226;">Techne</span>
+                        </span>
                     </div>
                     <div class="footer-form-wrap">
                         <h3 class="news">Our Newsletter <span>We are dolor sit amet csectetur</span></h3>
@@ -101,7 +104,7 @@
             <div class="copyright-area">
                 <div class="container">
                     <div class="copyright-content">
-                        <p>Copyright © 2024 <span>Morat</span>, All Rights Reserved.</p>
+                        <p>Copyright © 2024 <span>VajraTechne</span>, All Rights Reserved.</p>
                         <ul class="copy-list">
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="project.html">Events</a></li>
