@@ -1,14 +1,14 @@
 @extends('frontend.layouts.header')
-@section('title', "Web & App Development")
-@section('keywords', "Website Development, App Development")
+@section('title', "Website & Mobile App Developem Company")
+@section('description', "")
+@section('keywords', "")
 
-@section('content')       
-
-        <section class="hero-section-2" data-background="{{ asset('theme/img/bg-img/hero-bg-2.jpg')}}">
+@section('content')
+        <section class="hero-section-2" data-background="{{ asset('theme') }}/img/bg-img/hero-bg-2.jpg">
             <div class="overlay d-lg-none"></div>
             <div class="custom-container">
                 <div class="hero-content content-2">
-                    <div class="shape" data-background="{{ asset('theme/img/shapes/hero-shape-1.png')}}"></div>
+                    <div class="shape" data-background="{{ asset('theme') }}/img/shapes/hero-shape-1.png"></div>
                     <h4 class="hero-sub-title wow fade-in-bottom" data-wow-delay="400ms"><span>Welcome to</span> Morat!</h4>
                     <h1 class="title wow fade-in-bottom" data-wow-delay="500ms">The Best Projects Code It Solution <span>Working.</span></h1>
                     <p class="wow fade-in-bottom" data-wow-delay="600ms">
@@ -42,8 +42,8 @@
         <!-- ./ hero-section -->
 
         <section class="feature-section feature-1 pt-100 pb-100">
-            <div class="top-shape" data-background="{{ asset('theme/img/shapes/top-left-shape.png')}}"></div>
-            <div class="bottom-shape" data-background="{{ asset('theme/img/shapes/top-left-shape.png')}}"></div>
+            <div class="top-shape" data-background="{{ asset('theme') }}/img/shapes/top-left-shape.png"></div>
+            <div class="bottom-shape" data-background="{{ asset('theme') }}/img/shapes/top-left-shape.png"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -58,7 +58,7 @@
                                 <a href="about.html" class="mt-primary-btn primary-2 wow fade-in-bottom" data-wow-delay="600ms">Read More</a>
                             </div>
                             <div class="feature-img wow fade-in-bottom" data-wow-delay="700ms">
-                                <img src="{{ asset('theme/img/images/feature-img.jpg')}}" alt="feature">
+                                <img src="{{ asset('theme') }}/img/images/feature-img.jpg" alt="feature">
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                                                 transform="translate(79.90234375,8.5)">
                                             </path>
                                         </svg>
-                                        <img src="{{ asset('theme/img/icon/service-2.png')}}" alt="feature">
+                                        <img src="{{ asset('theme') }}/img/icon/service-2.png" alt="feature">
                                     </div>
                                     <h3 class="title"><a href="service-details.html">Digital Marketing</a></h3>
                                     <p>
@@ -118,7 +118,7 @@
                                                 transform="translate(79.90234375,8.5)">
                                             </path>
                                         </svg>
-                                        <img src="{{ asset('theme/img/icon/service-3.png')}}" alt="feature">
+                                        <img src="{{ asset('theme') }}/img/icon/service-3.png" alt="feature">
                                     </div>
                                     <h3 class="title"><a href="service-details.html">Research Work</a></h3>
                                     <p>
@@ -139,7 +139,7 @@
                                                 transform="translate(79.90234375,8.5)">
                                             </path>
                                         </svg>
-                                        <img src="{{ asset('theme/img/icon/service-1.png')}}" alt="feature">
+                                        <img src="{{ asset('theme') }}/img/icon/service-1.png" alt="feature">
                                     </div>
                                     <h3 class="title"><a href="service-details.html">Get Updates </a></h3>
                                     <p>
@@ -156,7 +156,7 @@
         <!-- ./ feature-section -->
 
         <section class="about-section-3 pt-100 pb-100">
-            <div class="bg-shape" data-background="{{ asset('theme/img/bg-img/about-bg-shape.png')}}"></div>
+            <div class="bg-shape" data-background="{{ asset('theme') }}/img/bg-img/about-bg-shape.png"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -213,7 +213,7 @@
                                 <span class="project">Complete Projects</span>
                             </div>
                             <div class="author-img">
-                                <img src="{{ asset('theme/img/images/about-author-2.jpg')}}" alt="author">
+                                <img src="{{ asset('theme') }}/img/images/about-author-2.jpg" alt="author">
                             </div>
                         </div>
                         <div class="about-img-2 wow fade-in-right" data-wow-delay="500ms">
@@ -223,13 +223,13 @@
                                     <span class="challange">Expressions Challenge</span>
                                 </div>
                                 <div class="shape shape-1">
-                                    <img src="{{ asset('theme/img/shapes/about-img-shape-1.jpg')}}" alt="shape">
+                                    <img src="{{ asset('theme') }}/img/shapes/about-img-shape-1.jpg" alt="shape">
                                 </div>
                                 <div class="shape shape-2">
-                                    <img src="{{ asset('theme/img/shapes/about-img-shape-2.png')}}" alt="shape">
+                                    <img src="{{ asset('theme') }}/img/shapes/about-img-shape-2.png" alt="shape">
                                 </div>
                             </div>
-                            <img class="main" src="{{ asset('theme/img/images/about-img-4.png')}}" alt="about">
+                            <img class="main" src="{{ asset('theme') }}/img/images/about-img-4.png" alt="about">
                         </div>
                     </div>
                 </div>
@@ -246,7 +246,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="faq-img wow fade-in-left" data-wow-delay="400ms">
-                            <img src="{{ asset('theme/img/images/faq-img.png')}}" alt="faq">
+                            <img src="{{ asset('theme') }}/img/images/faq-img.png" alt="faq">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -279,7 +279,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -311,7 +311,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -341,7 +341,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -372,7 +372,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -402,7 +402,7 @@
                                                 suffered alteration in some we by injected humour,
                                             </p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme/img/images/faq-body-img.jpg')}}" alt="faq">
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -421,27 +421,27 @@
                     <div class="swiper-wrapper swiper-container">
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-1.png')}}" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme') }}/img/sponsor/sponsor-1.png" alt="sponsor"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-2.png')}}" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme') }}/img/sponsor/sponsor-2.png" alt="sponsor"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-3.png')}}" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme') }}/img/sponsor/sponsor-3.png" alt="sponsor"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-4.png')}}" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme') }}/img/sponsor/sponsor-4.png" alt="sponsor"></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="sponsor-item">
-                                <a href="#"><img src="{{ asset('theme/img/sponsor/sponsor-5.png')}}" alt="sponsor"></a>
+                                <a href="#"><img src="{{ asset('theme') }}/img/sponsor/sponsor-5.png" alt="sponsor"></a>
                             </div>
                         </div>
                     </div>
@@ -462,10 +462,10 @@
                             <div class="swiper-slide">
                                 <div class="team-item">
                                     <a href="#" class="team-logo">
-                                        <img src="{{ asset('theme/img/shapes/team-shape.png')}}" alt="shape">
+                                        <img src="{{ asset('theme') }}/img/shapes/team-shape.png" alt="shape">
                                     </a>
                                     <div class="team-thumb">
-                                        <img src="{{ asset('theme/img/team/team-1.png')}}" alt="team">
+                                        <img src="{{ asset('theme') }}/img/team/team-1.png" alt="team">
                                         <div class="team-social">
                                             <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
                                             <ul class="social-list">
@@ -493,10 +493,10 @@
                             <div class="swiper-slide">
                                 <div class="team-item">
                                     <a href="#" class="team-logo">
-                                        <img src="{{ asset('theme/img/shapes/team-shape.png')}}" alt="shape">
+                                        <img src="{{ asset('theme') }}/img/shapes/team-shape.png" alt="shape">
                                     </a>
                                     <div class="team-thumb">
-                                        <img src="{{ asset('theme/img/team/team-2.png')}}" alt="team">
+                                        <img src="{{ asset('theme') }}/img/team/team-2.png" alt="team">
                                         <div class="team-social">
                                             <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
                                             <ul class="social-list">
@@ -524,10 +524,10 @@
                             <div class="swiper-slide">
                                 <div class="team-item">
                                     <a href="#" class="team-logo">
-                                        <img src="{{ asset('theme/img/shapes/team-shape.png')}}" alt="shape">
+                                        <img src="{{ asset('theme') }}/img/shapes/team-shape.png" alt="shape">
                                     </a>
                                     <div class="team-thumb">
-                                        <img src="{{ asset('theme/img/team/team-3.png')}}" alt="team">
+                                        <img src="{{ asset('theme') }}/img/team/team-3.png" alt="team">
                                         <div class="team-social">
                                             <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
                                             <ul class="social-list">
@@ -560,12 +560,12 @@
         </section>
         <!-- ./ team-section -->
 
-        <section class="cta-section-2" data-background="{{ asset('theme/img/bg-img/cta-bg-2.jpg')}}">
+        <section class="cta-section-2" data-background="{{ asset('theme') }}/img/bg-img/cta-bg-2.jpg">
             <div class="container">
-                <div class="cta-content-wrap wow fade-in-bottom" data-wow-delay="400ms" data-background="{{ asset('theme/img/bg-img/cta-info-bg.png')}}">
+                <div class="cta-content-wrap wow fade-in-bottom" data-wow-delay="400ms" data-background="{{ asset('theme') }}/img/bg-img/cta-info-bg.png">
                     <div class="cta-info">
                         <div class="cta-icon">
-                            <img src="{{ asset('theme/img/icon/cta-icon.png')}}" alt="icon">
+                            <img src="{{ asset('theme') }}/img/icon/cta-icon.png" alt="icon">
                         </div>
                         <h3 class="title">
                             Let's Try! Get This Free Support Solution?<span
@@ -594,7 +594,7 @@
                             <div class="project-item">
                                 <div class="project-thumb">
                                     <div class="overlay"></div>
-                                    <img src="{{ asset('theme/img/images/project-img-6.png')}}" alt="project">
+                                    <img src="{{ asset('theme') }}/img/images/project-img-6.png" alt="project">
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title">
@@ -610,7 +610,7 @@
                             <div class="project-item">
                                 <div class="project-thumb">
                                     <div class="overlay"></div>
-                                    <img src="{{ asset('theme/img/images/project-img-7.png')}}" alt="project">
+                                    <img src="{{ asset('theme') }}/img/images/project-img-7.png" alt="project">
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title">
@@ -626,7 +626,7 @@
                             <div class="project-item">
                                 <div class="project-thumb">
                                     <div class="overlay"></div>
-                                    <img src="{{ asset('theme/img/images/project-img-8.png')}}" alt="project">
+                                    <img src="{{ asset('theme') }}/img/images/project-img-8.png" alt="project">
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title">
@@ -642,7 +642,7 @@
                             <div class="project-item">
                                 <div class="project-thumb">
                                     <div class="overlay"></div>
-                                    <img src="{{ asset('theme/img/images/project-img-3.png')}}" alt="project">
+                                    <img src="{{ asset('theme') }}/img/images/project-img-3.png" alt="project">
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title">
@@ -661,7 +661,7 @@
         </section>
         <!-- ./ project-section -->
 
-        <section class="solution-section" data-background="{{ asset('theme/img/bg-img/solution-bg.png')}}">
+        <section class="solution-section" data-background="{{ asset('theme') }}/img/bg-img/solution-bg.png">
             <div class="container">
                 <div class="section-heading text-center">
                     <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="400ms">Our Software Solution</h4>
@@ -680,7 +680,7 @@
                                 aria-controls="pills-home"
                                 aria-selected="true"
                             >
-                                <img src="{{ asset('theme/img/icon/solution-tab-1.png')}}" alt="solution">Team Support
+                                <img src="{{ asset('theme') }}/img/icon/solution-tab-1.png" alt="solution">Team Support
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -694,7 +694,7 @@
                                 aria-controls="pills-profile"
                                 aria-selected="false"
                             >
-                            <img src="{{ asset('theme/img/icon/solution-tab-2.png')}}" alt="solution">Our Conferance
+                            <img src="{{ asset('theme') }}/img/icon/solution-tab-2.png" alt="solution">Our Conferance
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -708,7 +708,7 @@
                                 aria-controls="pills-contact"
                                 aria-selected="false"
                             >
-                            <img src="{{ asset('theme/img/icon/solution-tab-3.png')}}" alt="solution">Settings Fast
+                            <img src="{{ asset('theme') }}/img/icon/solution-tab-3.png" alt="solution">Settings Fast
                             </button>
                         </li>
                     </ul>
@@ -733,7 +733,7 @@
                                             </p>
                                         </div>
                                         <div class="solution-box">
-                                            <img src="{{ asset('theme/img/images/solution-img.jpg')}}" alt="img">
+                                            <img src="{{ asset('theme') }}/img/images/solution-img.jpg" alt="img">
                                             <ul class="solution-list">
                                                 <li>
                                                     <i class="fa-regular fa-plus"></i>Softewer being able to out videos
@@ -750,7 +750,7 @@
                                             </ul>
                                         </div>
                                         <div class="solution-icon">
-                                            <div class="icon"><img src="{{ asset('theme/img/icon/bulb.png')}}" alt="bulb"></div>
+                                            <div class="icon"><img src="{{ asset('theme') }}/img/icon/bulb.png" alt="bulb"></div>
                                             <h3 class="title">
                                                 Agency Website Service <span>App Design, Website</span>
                                             </h3>
@@ -772,7 +772,7 @@
                                             </p>
                                         </div>
                                         <div class="solution-box">
-                                            <img src="{{ asset('theme/img/images/solution-img.jpg')}}" alt="img">
+                                            <img src="{{ asset('theme') }}/img/images/solution-img.jpg" alt="img">
                                             <ul class="solution-list">
                                                 <li>
                                                     <i class="fa-regular fa-plus"></i>Softewer being able to out videos
@@ -789,7 +789,7 @@
                                             </ul>
                                         </div>
                                         <div class="solution-icon">
-                                            <div class="icon"><img src="{{ asset('theme/img/icon/bulb.png')}}" alt="bulb"></div>
+                                            <div class="icon"><img src="{{ asset('theme') }}/img/icon/bulb.png" alt="bulb"></div>
                                             <h3 class="title">
                                                 Agency Website Service <span>App Design, Website</span>
                                             </h3>
@@ -811,7 +811,7 @@
                                             </p>
                                         </div>
                                         <div class="solution-box">
-                                            <img src="{{ asset('theme/img/images/solution-img.jpg')}}" alt="img">
+                                            <img src="{{ asset('theme') }}/img/images/solution-img.jpg" alt="img">
                                             <ul class="solution-list">
                                                 <li>
                                                     <i class="fa-regular fa-plus"></i>Softewer being able to out videos
@@ -828,7 +828,7 @@
                                             </ul>
                                         </div>
                                         <div class="solution-icon">
-                                            <div class="icon"><img src="{{ asset('theme/img/icon/bulb.png')}}" alt="bulb"></div>
+                                            <div class="icon"><img src="{{ asset('theme') }}/img/icon/bulb.png" alt="bulb"></div>
                                             <h3 class="title">
                                                 Agency Website Service <span>App Design, Website</span>
                                             </h3>
@@ -842,9 +842,9 @@
                                     <div class="col-md-6">
                                         <div class="counter-item">
                                             <div class="shape">
-                                                <img src="{{ asset('theme/img/shapes/counter-shape.png')}}" alt="shape">
+                                                <img src="{{ asset('theme') }}/img/shapes/counter-shape.png" alt="shape">
                                             </div>
-                                            <div class="counter-icon"><img src="{{ asset('theme/img/icon/counter-1.png')}}" alt="icon"></div>
+                                            <div class="counter-icon"><img src="{{ asset('theme') }}/img/icon/counter-1.png" alt="icon"></div>
                                             <h3 class="title"><span class="odometer" data-count="56">0</span>k+</h3>
                                             <p>Happy Clients</p>
                                         </div>
@@ -852,9 +852,9 @@
                                     <div class="col-md-6">
                                         <div class="counter-item" style="--mt-color-theme-secondary: #a6e155">
                                             <div class="shape">
-                                                <img src="{{ asset('theme/img/shapes/counter-shape.png')}}" alt="shape">
+                                                <img src="{{ asset('theme') }}/img/shapes/counter-shape.png" alt="shape">
                                             </div>
-                                            <div class="counter-icon"><img src="{{ asset('theme/img/icon/counter-2.png')}}" alt="icon"></div>
+                                            <div class="counter-icon"><img src="{{ asset('theme') }}/img/icon/counter-2.png" alt="icon"></div>
                                             <h3 class="title"><span class="odometer" data-count="186">0</span>+</h3>
                                             <p>Business Award</p>
                                         </div>
@@ -865,7 +865,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="solution-img">
-                            <img src="{{ asset('theme/img/images/solution-img-2.jpg')}}" alt="img">
+                            <img src="{{ asset('theme') }}/img/images/solution-img-2.jpg" alt="img">
                         </div>
                     </div>
                 </div>
@@ -942,16 +942,16 @@
 
         <section class="contact-section bg-dark-1 pt-100 pb-100">
             <div class="contact-shapes">
-                <div class="shape headphone"><img src="{{ asset('theme/img/icon/headphone.png')}}" alt="img"></div>
-                <div class="shape bulb"><img src="{{ asset('theme/img/icon/bulb-2.png" alt="img')}}"></div>
-                <div class="shape bg top-shape" data-background="{{ asset('theme/img/shapes/contact-shape-2.png')}}"></div>
-                <div class="shape bg bottom-shape" data-background="{{ asset('theme/img/shapes/contact-shape-1.png')}}"></div>
+                <div class="shape headphone"><img src="{{ asset('theme') }}/img/icon/headphone.png" alt="img"></div>
+                <div class="shape bulb"><img src="{{ asset('theme') }}/img/icon/bulb-2.png" alt="img"></div>
+                <div class="shape bg top-shape" data-background="{{ asset('theme') }}/img/shapes/contact-shape-2.png"></div>
+                <div class="shape bg bottom-shape" data-background="{{ asset('theme') }}/img/shapes/contact-shape-1.png"></div>
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="contact-thumb wow fade-in-left" data-wow-delay="500ms">
-                            <img src="{{ asset('theme/img/images/contact-img.png')}}" alt="img">
+                            <img src="{{ asset('theme') }}/img/images/contact-img.png" alt="img">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -1019,7 +1019,7 @@
                             <div class="post-card card-2">
                                 <div class="post-content-wrap">
                                     <div class="post-content">
-                                        <div class="post-author"><img src="{{ asset('theme/img/blog/blog-author-1.png')}}" alt="author"></div>
+                                        <div class="post-author"><img src="{{ asset('theme') }}/img/blog/blog-author-1.png" alt="author"></div>
                                         <a href="#" class="category">Solution</a>
                                         <ul class="post-meta">
                                             <li>By: <a href="#">Admin, </a>May 02, 2024</li>
@@ -1046,7 +1046,7 @@
                             <div class="post-card card-2 item-2">
                                 <div class="post-content-wrap">
                                     <div class="post-content">
-                                        <div class="post-author"><img src="{{ asset('theme/img/blog/blog-author-2.png')}}" alt="author"></div>
+                                        <div class="post-author"><img src="{{ asset('theme') }}/img/blog/blog-author-2.png" alt="author"></div>
                                         <a href="#" class="category">Solution</a>
                                         <ul class="post-meta">
                                             <li>By: <a href="#">Admin, </a>May 02, 2024</li>
@@ -1073,7 +1073,7 @@
                             <div class="post-card card-2 item-3">
                                 <div class="post-content-wrap">
                                     <div class="post-content">
-                                        <div class="post-author"><img src="{{ asset('theme/img/blog/blog-author-3.png')}}" alt="author"></div>
+                                        <div class="post-author"><img src="{{ asset('theme') }}/img/blog/blog-author-3.png" alt="author"></div>
                                         <a href="#" class="category">Solution</a>
                                         <ul class="post-meta">
                                             <li>By: <a href="#">Admin, </a>May 02, 2024</li>
@@ -1103,4 +1103,4 @@
             </div>
         </section>
         <!-- ./ blog-section -->
- @endsection
+@endsection
