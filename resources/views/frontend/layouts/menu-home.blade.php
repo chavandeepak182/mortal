@@ -10,20 +10,22 @@
     <title>@yield('title')</title>
     <meta name="description" content="@yield('description')">
     <meta name="Keywords" content="@yield('keywords')">
-    
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('theme') }}/img/favicon.png" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('theme') }}/img/favicon.png">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="{{ asset('theme') }}/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="{{ asset('theme') }}/css/fontawesome.min.css" />
-    <link rel="stylesheet" href="{{ asset('theme') }}/css/venobox.min.css" />
-    <link rel="stylesheet" href="{{ asset('theme') }}/css/animate.min.css" />
-    <link rel="stylesheet" href="{{ asset('theme') }}/css/odometer.min.css" />
-    <link rel="stylesheet" href="{{ asset('theme') }}/css/swiper.min.css" />
-    <link rel="stylesheet" href="{{ asset('theme') }}/css/main.css" />
+    <link rel="stylesheet" href="{{ asset('theme') }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/css/icofont.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/css/venobox.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/css/animate.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/css/keyframe-animation.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/css/odometer.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/css/swiper.min.css">
+    <link rel="stylesheet" href="{{ asset('theme') }}/css/main.css">
 </head>
 
-<body>
+<body class="header-2">
     <!-- header-area-start -->
         <header class="header sticky-active">
             <div class="header-container">
