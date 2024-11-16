@@ -1,4 +1,4 @@
-@extends('frontend.layouts.header')
+@extends('frontend.layouts.menu-home')
 @section('title', "Website & Mobile App Developem Company")
 @section('description', "")
 @section('keywords', "")
@@ -117,10 +117,8 @@
                                         </svg>
                                         <img src="{{ asset('theme') }}/img/icon/service-3.png" alt="feature">
                                     </div>
-                                    <h3 class="title"><a href="service-details.html">Mobile Development</a></h3>
-                                    <p>
-                                    We specialize in creating high-performance mobile applications for iOS and Android, tailored to your business needs.
-                                    </p>
+                                    <h3 class="title"><a href="service-details.html">App Development</a></h3>
+                                    <p>We craft high-performance iOS and Android mobile apps customized to meet your business needs.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
