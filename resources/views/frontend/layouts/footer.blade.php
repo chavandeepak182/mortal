@@ -31,13 +31,13 @@
                             <h3 class="widget-header">About</h3>
                             <ul class="address-list">
                                 <li>
-                                    <i class="fa-regular fa-clock"></i>Open Hours of Government: Mon - Fri: 8.00 am. -
+                                    <i class="fa-regular fa-clock"></i>Open Hours: Mon - Sat: 9:00 am. -
                                     6.00 pm.
                                 </li>
-                                <li><i class="fa-solid fa-location-dot"></i> 13/A, Miranda Halim City .</li>
+                                <li><i class="fa-solid fa-location-dot"></i> Moze Nagar, Lohegaon, Pune, Maharashtra 411047.</li>
                                 <li>
                                     <i class="fa-sharp fa-solid fa-phone"></i
-                                    ><a href="tel:09969569535">099 695 695 35</a>
+                                    ><a href="tel:918788524747">+91 87885 24747</a>
                                 </li>
                             </ul>
                             <ul class="social-list">
@@ -60,11 +60,11 @@
                         <div class="footer-widget widget-2">
                             <h3 class="widget-header">Service</h3>
                             <ul class="footer-list">
-                                <li><a href="about.html">Why Choose Us</a></li>
-                                <li><a href="about.html">Our solutions</a></li>
-                                <li><a href="testimonial.html">Partners</a></li>
-                                <li><a href="service.html">Core values</a></li>
-                                <li><a href="project.html">Our projects</a></li>
+                                <li><a href="#">Website Development</a></li>
+                                <li><a href="#">App Development</a></li>
+                                <li><a href="#">Digital Marketing</a></li>
+                                <li><a href="#">Creative Services</a></li>
+                                <!-- <li><a href="#">Our projects</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -72,11 +72,11 @@
                         <div class="footer-widget widget-3">
                             <h3 class="widget-header">Quick Links</h3>
                             <ul class="footer-list">
-                                <li><a href="about.html">Residents</a></li>
-                                <li><a href="about.html">Business</a></li>
-                                <li><a href="service.html">Online Service</a></li>
-                                <li><a href="project.html">Visiting</a></li>
-                                <li><a href="about.html">Employment</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
                     </div>

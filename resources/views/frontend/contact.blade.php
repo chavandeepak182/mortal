@@ -29,19 +29,19 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="contact-item">
                             <div class="contact-icon"><i class="fa-sharp fa-solid fa-house fa-fw"></i></div>
-                            <h3 class="title">London,Dh2 <span>Ratan House:522</span></h3>
+                            <h3 class="title">Moze Nagar, Lohegaon <span>Pune-411047 (MH)</span></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="contact-item item-2" style="--mt-color-theme-secondary: #175cff">
                             <div class="contact-icon"><i class="fa-sharp fa-solid fa-phone"></i></div>
-                            <h3 class="title">Call Number <span><a href="tel:+550000015854">+550000015854</a></span></h3>
+                            <h3 class="title">Call Number <span><a href="tel:918788524747">+91 87885 24747</a></span></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="contact-item" style="--mt-color-theme-secondary: #ff8c91">
                             <div class="contact-icon"><i class="fa-sharp fa-solid fa-envelope"></i></div>
-                            <h3 class="title">Email Us <span><a href="mailto:laronta@bara.com">laronta@bara.com</a></span></h3>
+                            <h3 class="title">Email Us <span><a href="mailto:info@vajratechne.in">info@vajratechne.in</a></span></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -123,7 +123,7 @@
         <!-- ./ contact-section -->
 
         <div class="map-wrapper pb-100">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8826.923787362664!2d-118.27754354757262!3d34.03471770929568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20California%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1566525118697!5m2!1svi!2s" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.12195166296!2d73.9121256742403!3d18.61358378249816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c74d3504b315%3A0xb470ee0be1ddfcd0!2sVAJRATECHNE%20SOLUTIONS!5e0!3m2!1sen!2sin!4v1734261911264!5m2!1sen!2sin" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
 
         <section class="info-section">
