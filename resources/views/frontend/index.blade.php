@@ -255,8 +255,7 @@
                                             aria-expanded="true"
                                             aria-controls="collapseOne"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i>Maecenas facilisis erat id
-                                            odio <span class="number">01</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i>What is digital marketing, and why is it important? <span class="number">01</span>
                                         </button>
                                     </h2>
                                     <div
@@ -267,10 +266,7 @@
                                         style=""
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>Digital marketing involves using online platforms and tools to promote businesses, products, or services. It’s essential because it allows you to reach a broader audience, target specific demographics, and measure performance effectively.</p>
                                             <div class="body-img">
                                                 <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
@@ -287,8 +283,7 @@
                                             aria-expanded="false"
                                             aria-controls="collapseTwo"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Phasellus et vehicula
-                                            nulla <span class="number">02</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i> What services do you offer? <span class="number">02</span>
                                         </button>
                                     </h2>
                                     <div
@@ -299,10 +294,7 @@
                                         style=""
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>We provide a range of services, including Website & Mobile App Development, SEO (Search Engine Optimization), social media management, PPC (Pay-Per-Click) advertising, content marketing, email marketing, web design, and analytics.</p>
                                             <div class="body-img">
                                                 <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
@@ -319,7 +311,7 @@
                                             aria-expanded="false"
                                             aria-controls="collapseThree"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Maecenas malesuada <span class="number">03</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Do you work with businesses in all industries? <span class="number">03</span>
                                         </button>
                                     </h2>
                                     <div
@@ -329,10 +321,7 @@
                                         data-bs-parent="#accordionExample"
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>Yes, we cater to businesses across various sectors, including e-commerce, healthcare, real estate, education, and more.</p>
                                             <div class="body-img">
                                                 <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
@@ -349,7 +338,7 @@
                                             aria-expanded="false"
                                             aria-controls="collapseFour"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i>Why you join our team <span class="number">04</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i>How soon can we get started? <span class="number">04</span>
                                         </button>
                                     </h2>
                                     <div
@@ -360,10 +349,7 @@
                                         style=""
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>After an initial consultation and agreement, we can start within 1-2 weeks. Our pricing depends on the scope of services and project duration. We offer customizable packages to fit various budgets.</p>
                                             <div class="body-img">
                                                 <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
@@ -380,7 +366,7 @@
                                             aria-expanded="false"
                                             aria-controls="collapseFive"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Maecenas malesuada <span class="number">05</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Can you train my team in digital marketing? <span class="number">05</span>
                                         </button>
                                     </h2>
                                     <div
@@ -390,10 +376,7 @@
                                         data-bs-parent="#accordionExample"
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>Yes, we offer training sessions to help your in-house team understand and implement digital marketing strategies.</p>
                                             <div class="body-img">
                                                 <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
@@ -478,39 +461,8 @@
                                         </div>
                                     </div>
                                     <div class="team-content">
-                                        <h3 class="title"><a href="team-details.html">Morata Baram</a></h3>
+                                        <h3 class="title"><a href="#">Deepak Chavan</a></h3>
                                         <span>Founder</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="team-item">
-                                    <a href="#" class="team-logo">
-                                        <img src="{{ asset('theme') }}/img/shapes/team-shape.png" alt="shape">
-                                    </a>
-                                    <div class="team-thumb">
-                                        <img src="{{ asset('theme') }}/img/team/team-2.png" alt="team">
-                                        <div class="team-social">
-                                            <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
-                                            <ul class="social-list">
-                                                <li>
-                                                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" class="google"><i class="fab fa-twitter"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" class="twitter"><i class="fab fa-instagram"></i></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" class="pinterest"><i class="fab fa-pinterest"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="team-content">
-                                        <h3 class="title"><a href="team-details.html">Daniel Honey</a></h3>
-                                        <span>Manager</span>
                                     </div>
                                 </div>
                             </div>
@@ -540,8 +492,39 @@
                                         </div>
                                     </div>
                                     <div class="team-content">
-                                        <h3 class="title"><a href="team-details.html">Mark Wough</a></h3>
-                                        <span>Founder</span>
+                                        <h3 class="title"><a href="#">VaiBhav SaxEna</a></h3>
+                                        <span>CTO</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-item">
+                                    <a href="#" class="team-logo">
+                                        <img src="{{ asset('theme') }}/img/shapes/team-shape.png" alt="shape">
+                                    </a>
+                                    <div class="team-thumb">
+                                        <img src="{{ asset('theme') }}/img/team/team-2.png" alt="team">
+                                        <div class="team-social">
+                                            <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
+                                            <ul class="social-list">
+                                                <li>
+                                                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="google"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="twitter"><i class="fab fa-instagram"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pinterest"><i class="fab fa-pinterest"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="team-content">
+                                        <h3 class="title"><a href="#">Shalaka Nakhate</a></h3>
+                                        <span>Digital Marketing Head</span>
                                     </div>
                                 </div>
                             </div>

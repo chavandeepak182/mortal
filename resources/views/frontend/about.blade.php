@@ -314,14 +314,14 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="faq-img">
-                            <img src="{{ asset('theme') }}/img/images/faq-img.png" alt="faq" />
+                        <div class="faq-img wow fade-in-left" data-wow-delay="400ms">
+                            <img src="{{ asset('theme') }}/img/images/faq-img.png" alt="faq">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="faq-content">
                             <div class="accordion" id="accordionExample">
-                                <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms">
+                                <div class="accordion-item wow fade-in-right" data-wow-delay="400ms">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button
                                             class="accordion-button"
@@ -331,8 +331,7 @@
                                             aria-expanded="true"
                                             aria-controls="collapseOne"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i>Maecenas facilisis erat id
-                                            odio <span class="number">01</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i>What is digital marketing, and why is it important? <span class="number">01</span>
                                         </button>
                                     </h2>
                                     <div
@@ -343,17 +342,14 @@
                                         style=""
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>Digital marketing involves using online platforms and tools to promote businesses, products, or services. It’s essential because it allows you to reach a broader audience, target specific demographics, and measure performance effectively.</p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq" />
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms" style="--mt-color-theme-secondary: #004ce9">
+                                <div class="accordion-item wow fade-in-right" data-wow-delay="400ms" style="--mt-color-theme-secondary: #004ce9">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button
                                             class="accordion-button collapsed"
@@ -363,8 +359,7 @@
                                             aria-expanded="false"
                                             aria-controls="collapseTwo"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Phasellus et vehicula
-                                            nulla <span class="number">02</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i> What services do you offer? <span class="number">02</span>
                                         </button>
                                     </h2>
                                     <div
@@ -375,17 +370,14 @@
                                         style=""
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>We provide a range of services, including Website & Mobile App Development, SEO (Search Engine Optimization), social media management, PPC (Pay-Per-Click) advertising, content marketing, email marketing, web design, and analytics.</p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq" />
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms" style="--mt-color-theme-secondary: #ff8c91">
+                                <div class="accordion-item wow fade-in-right" data-wow-delay="400ms" style="--mt-color-theme-secondary: #ff8c91">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button
                                             class="accordion-button collapsed"
@@ -395,7 +387,7 @@
                                             aria-expanded="false"
                                             aria-controls="collapseThree"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Maecenas malesuada <span class="number">03</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Do you work with businesses in all industries? <span class="number">03</span>
                                         </button>
                                     </h2>
                                     <div
@@ -405,17 +397,14 @@
                                         data-bs-parent="#accordionExample"
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>Yes, we cater to businesses across various sectors, including e-commerce, healthcare, real estate, education, and more.</p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq" />
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms" style="--mt-color-theme-secondary: #afe466">
+                                <div class="accordion-item wow fade-in-right" data-wow-delay="400ms" style="--mt-color-theme-secondary: #afe466">
                                     <h2 class="accordion-header" id="headingFour">
                                         <button
                                             class="accordion-button collapsed"
@@ -425,7 +414,7 @@
                                             aria-expanded="false"
                                             aria-controls="collapseFour"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i>Why you join our team <span class="number">04</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i>How soon can we get started? <span class="number">04</span>
                                         </button>
                                     </h2>
                                     <div
@@ -436,17 +425,14 @@
                                         style=""
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>After an initial consultation and agreement, we can start within 1-2 weeks. Our pricing depends on the scope of services and project duration. We offer customizable packages to fit various budgets.</p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq" />
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms" style="--mt-color-theme-secondary: #d98fff">
+                                <div class="accordion-item wow fade-in-right" data-wow-delay="400ms" style="--mt-color-theme-secondary: #d98fff">
                                     <h2 class="accordion-header" id="headingFive">
                                         <button
                                             class="accordion-button collapsed"
@@ -456,7 +442,7 @@
                                             aria-expanded="false"
                                             aria-controls="collapseFive"
                                         >
-                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Maecenas malesuada <span class="number">05</span>
+                                            <i class="fa-sharp fa-solid fa-circle-check"></i> Can you train my team in digital marketing? <span class="number">05</span>
                                         </button>
                                     </h2>
                                     <div
@@ -466,12 +452,9 @@
                                         data-bs-parent="#accordionExample"
                                     >
                                         <div class="accordion-body">
-                                            <p>
-                                                There are many variations of passages of is psum the majority have
-                                                suffered alteration in some we by injected humour,
-                                            </p>
+                                            <p>Yes, we offer training sessions to help your in-house team understand and implement digital marketing strategies.</p>
                                             <div class="body-img">
-                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq" />
+                                                <img src="{{ asset('theme') }}/img/images/faq-body-img.jpg" alt="faq">
                                             </div>
                                         </div>
                                     </div>
@@ -498,7 +481,7 @@
                                     <img src="{{ asset('theme') }}/img/team/team-4.png" alt="team">
                                 </div>
                                 <div class="team-content text-center">
-                                    <h3 class="title"><a href="#">Morata Baram</a></h3>
+                                    <h3 class="title"><a href="#">Deepak Chavan</a></h3>
                                     <span>Founder</span>
                                 </div>
                                 <div class="team-social">
@@ -526,8 +509,8 @@
                                     <img src="{{ asset('theme') }}/img/team/team-5.png" alt="team">
                                 </div>
                                 <div class="team-content text-center">
-                                    <h3 class="title"><a href="#">Lataro Marat</a></h3>
-                                    <span>Manager</span>
+                                    <h3 class="title"><a href="#">VaiBhav SaxEna</a></h3>
+                                    <span>CTO</span>
                                 </div>
                                 <div class="team-social">
                                     <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
@@ -554,8 +537,8 @@
                                     <img src="{{ asset('theme') }}/img/team/team-6.png" alt="team">
                                 </div>
                                 <div class="team-content text-center">
-                                    <h3 class="title"><a href="#">Rotaro Mara</a></h3>
-                                    <span>Founder</span>
+                                    <h3 class="title"><a href="#">Shalaka Nakhate</a></h3>
+                                    <span>Digital Marketing Head</span>
                                 </div>
                                 <div class="team-social">
                                     <div class="expand"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
