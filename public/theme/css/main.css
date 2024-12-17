@@ -1424,10 +1424,10 @@ START: Theme Header CSS
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
   .mobile-side-menu .side-menu-head a img {
-    max-width: 120px;
+    max-width: 50px;
   }
   .mobile-side-menu .side-menu-head .mobile-side-menu-close {
     position: fixed;
