@@ -47,7 +47,7 @@
                                 <!-- <img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="Logo" style="height: 50px;"> -->
                                 <div style="display: flex; align-items: center;">
                                     <img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="Logo" style="height: 50px;">
-                                    <span style="margin-left: 10px; font-size: 24px; font-weight: bold;">
+                                    <span style="font-size: 24px; font-weight: bold;">
                                         <span style="color: #175cff;">Vajra</span><span style="color: #ffc226;">Techne</span>
                                     </span>
                                 </div>
@@ -75,7 +75,7 @@
                                         <a href="{{ url('/services') }}">Service</a>
                                     </li>
                                     <li><a href="{{ url('/projects') }}">Projects</a></li>
-                                    <li><a href="#">Blogs</a></li>
+                                    <!-- <li><a href="#">Blogs</a></li> -->
                                     <li><a href="{{ url ('/contact') }}">Contact</a></li>
                                 </ul>
                             </div>
@@ -199,14 +199,14 @@
         <div class="mobile-side-menu">
             <div class="side-menu-content">
                 <div class="side-menu-head">
-                    <a href="index.html"><img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="logo"></a>
+                    <a href="/"><img src="{{ asset('theme') }}/img/logo/logo-v.png" alt="logo"></a>
                     <button class="mobile-side-menu-close"><i class="fa-regular fa-xmark"></i></button>
                 </div>
                 <div class="side-menu-wrap"></div>
                 <ul class="side-menu-list">
-                    <li><i class="fa-light fa-location-dot"></i>Address : <span>Amsterdam, 109-74</span></li>
-                    <li><i class="fa-light fa-phone"></i>Phone : <a href="tel:+01569896654">+01 569 896 654</a></li>
-                    <li><i class="fa-light fa-envelope"></i>Email : <a href="mailto:info@example.com">info@example.com</a></li>
+                    <li><i class="fa-light fa-location-dot"></i>Address : <span>Moze Nagar, Lohegaon, Pune, Maharashtra 411047</span></li>
+                    <li><i class="fa-light fa-phone"></i>Phone : <a href="tel:918788524747">+91 8788524747</a></li>
+                    <li><i class="fa-light fa-envelope"></i>Email : <a href="mailto:contact@vajratechne.com">contact@vajratechne.com</a></li>
                 </ul>
             </div>
         </div>
